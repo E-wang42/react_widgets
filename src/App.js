@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import WikiSearch from "./components/WikiSearch";
 
 const items = [
   {
@@ -18,7 +19,9 @@ const items = [
 function App() {
   return (
     <div>
-      <Accordion items={items} />
+      <WikiSearch />
+
+      {/* <Accordion items={items} /> */}
     </div>
   );
 }
